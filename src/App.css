@@ -1,0 +1,60 @@
+
+.form-container{
+    text-align: center;
+    margin: 10px;
+    height: 90vh;
+    padding-top: 20px;
+    padding-left: 200px;
+    
+}
+body{
+    font-family: "open sans", serif;
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+.main{
+    height: 90vh;
+    background-image: url("./img/cloudy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 13px 40px -13px rgba(0,0,0,0,75);
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'Roboto slab' serif;
+}
+.sub-header{
+    font-size: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-family: 'merriweather', serif;
+}
+
+.weather__info{
+    width: 20px;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 0px;
+}
+.weather__key:last-child{
+    border: 0;
+}
+.weather__error{
+    color: #f16051;
+    font-size: 15px;
+    font-weight: bold;
+}
+.weather__key{
+    color: #000;
+    border-bottom: solid 2px rgba(255, 255, 255, 0, 06);
+    font-weight: bold;
+}
